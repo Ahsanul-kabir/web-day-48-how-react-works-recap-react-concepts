@@ -1,3 +1,14 @@
 what is React?
     Ans: https://en.wikipedia.org/wiki/React_(JavaScript_library)
 
+Library vs Framework ?
+    Ans:
+    library : likes, a shop
+    * library choto jinis
+    * library ke library use er somoy independent besi
+    * library ke useer somoy buit in kisu use na kore o nijer moto kore use kora jai
+    *
+    Framework : likes, a shoping mall
+    * Framework boro jinis
+    * Framework ke library use er somoy independent kom
+    * Framework ke use er somoy buit in module use kora lagbei must likes, data load.
