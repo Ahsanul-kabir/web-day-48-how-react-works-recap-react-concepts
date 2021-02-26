@@ -12,3 +12,9 @@ Library vs Framework ?
     * Framework boro jinis
     * Framework ke library use er somoy independent kom
     * Framework ke use er somoy buit in module use kora lagbei must likes, data load.
+
+
+4. Angular vs react vs vue which one to learn
+    Ans:
+    * https://www.javatpoint.com/reactjs-vs-angularjs
+    * https://www.javatpoint.com/react-vs-vue
