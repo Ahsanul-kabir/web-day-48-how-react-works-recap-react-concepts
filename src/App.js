@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
-  const nayoks = ['Sakib Khan','Bappi'];
+  const nayoks = ['Sakib Khan', 'Bappi'];
   return (
     <div className="App">
+
+      <MovieCounter></MovieCounter>
 
       <Nayok name="Jasim" age='60'></Nayok>
       <Nayok name="Manna"></Nayok>
@@ -17,12 +20,25 @@ function App() {
   );
 }
 
-function Nayok(props){
+function MovieCounter() {
+  const [count, setCount] = useState(0);
+
+  console.log(count, setCount)
+  return (
+    <div>
+      <button>Add Movie</button>
+      <h3>Number of movies: </h3>
+    </div>
+  )
+}
+
+
+function Nayok(props) {
   const nayokStyle = {
-    color : 'red'
+    color: 'red'
   }
   return (
-    <div style = {{border: '1px solid red', margin:"10px"}}>
+    <div style={{ border: '1px solid red', margin: "10px" }}>
       <h1 style={nayokStyle}>Ami {props.name}</h1>
       <h3>I have done 5 movies in {props.age || 30} years</h3>
     </div>
